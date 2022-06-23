@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugins>
+	<plugin id="War.1" version="1.0" level="5"
+		type="War-01.PluginImpl">
+		<description>服务</description>
+		<plugin-services>
+			<plugin-service id="War.1"
+				type="War-01.Hello" 
+				class-name="War-01.Hello"
+				 instance-get-mode="bean"
+				version="1.0">
+				<description>插件服务</description>
+			</plugin-service>
+		</plugin-services>
+	</plugin>
+</plugins>	

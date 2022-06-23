@@ -1,0 +1,5 @@
+<beans package-name="War.1">
+	<bean id="War.1" name="War.1" scope="singleton"
+		type="War-01.Hello" class="War-01.Hello">
+	</bean>
+</beans>
